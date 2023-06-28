@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro JS</title>
+</head>
+<body>
+    <h1>Primeiro Java Script</h1>
+    <script>
+        window.alert ('Olá, mundo!')
+    </script>
+    <script> alert(5+6)</script>
+    <script>console.log(5+69)</script>
+
+    <p id="demo"></p>
+    <script>
+
+        let x, y, z;  //statament 1
+        x= 5;         //statament 2
+        y= 6;         //statament 3
+        z= x + y;     //statament 4
+        document.getElementById("demo"). innerHTML="the value of z is" + z + ".";
+    </script>
+
+    <button onclick="inicio()">Clique para começar</button>
+    <section id="resultado">
+        <p>aqui vai aparecer o resultado</p>
+    </section>
+    <script>
+        function inicio() {
+            let nome= window.prompt ('QualSeuNome?')
+            let res= window.document.getElementById ('resultado')
+            res.innerHTML=<p>Olá,<strong>${nome}</strong>!É um prazer te conhecer!</p>
+        }
+    </script>
+</body>
+</html>
+
+<h1>minha primeira pagina
+    <p> meu primeiro paragrafo</p>
+    <button type="button" onclick="document.write (5+6)">try it</button>
+</h1>
