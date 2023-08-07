@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <style>
+        body {
+            margin: 0 auto;
+            background-color: #F0F8FF;
+        }
+        form {
+            background-color: #dff0ff;
+            margin-left: 37%;
+            margin-right: 37%;
+            margin-top: 10%;
+            border-radius: 15px;
+        }
+        form h2 {
+            padding-top: 10px;
+            font-size: 36px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form input {
+            border: none;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: 	rgb(184, 221, 255);
+            margin-left: 5px;
+            margin-bottom: 15px;
+            font-size: large;
+            transition: 1s;
+        }
+        form textarea {
+            border: none;
+            border-radius: 15px;
+            font-size: large;
+        }
+        form p {
+            font-size: large;
+        }
+        form input:hover {
+            background-color: rgb(119, 189, 255);
+        }
+    </style>
+    <script>
+        var nome;
+        var email;
+        var num = 0;
+        function escrever() {
+        info = "Usuário número " + (++num) + "\n";
+        info += "Nome: " + nome + "\n";
+        info += "E-mail: " + email + "\n\n";
+    }
+        nome = prompt("Digite o Nome", "")
+
+        function escrever(quadro) {
+            info = "Usuário número " + (++num) + "\n";
+            info += "Nome: " + nome + "\n";
+            info += "E-mail: " + email + "\n\n";
+            quadro.value += info;
+    }
+
+        </script>
+</head>
+<body>
+    <body bgcolor="white">
+ <form>
+ <h2 align="center">Cadastro</h2>
+ <div align=center>
+ <p><input type=button value="Digitar Nome" onclick="nome=prompt('Seu Nome', '')">
+ <input type=button value="Digitar E-mail" onclick="email=prompt('Email', '')">
+ <input type=button value="Cadastrar" onclick="escrever(this.form.Area)"></p>
+ <p><textarea rows=15 cols=40 name=Area></textarea></p>
+ <input type="submit" value="enviar">
+ <input type="reset" value="limpar">
+ </div>
+ </form>
+</body>
+</html>
