@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gainsboro;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: pink;
+    width: 25%;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+    margin-left: 38%;
+}
+input{
+    background-color: pink;
+    color: white;
+    font-size: 12pt;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+p {
+    color: black;
+}
