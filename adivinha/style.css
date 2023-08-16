@@ -1,0 +1,17 @@
+body { 
+    font: 12pt Arial; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: powderblue;
+    text-align: center;
+}
+h1, h2, h3 {
+    color: black;
+}
+button { 
+    background-color: mediumturquoise;
+    color: black;
+    font-size: 12pt;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
